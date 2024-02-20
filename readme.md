@@ -3,6 +3,10 @@
 ## `monitor.py`
 Log power usage from a TP-link Kasa device. 
 
+### Dependencies
+```
+pip install python-kasa
+```
 
 `python3 monitor.py <IP>` were `<ip>` is the ip of the Kasa device, such as `192.168.1.192`.
 
